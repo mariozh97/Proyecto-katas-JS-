@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.random-pokemon-image {
+    max-width: 80vw; /* Máximo 80% del ancho de la ventana */
+    max-height: 80vh; /* Máximo 80% de la altura de la ventana */
+    border: 5px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: block; /* Para centrar la imagen con margin auto si fuera necesario, aunque con flexbox no es crucial */
+}
